@@ -7,6 +7,7 @@
 //
 
 #import "CCViewController.h"
+#import <BaseLib/Test.h>
 
 @interface CCViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [Test test];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
